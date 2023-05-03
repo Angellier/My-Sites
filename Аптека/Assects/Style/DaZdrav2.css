@@ -1,0 +1,193 @@
+html{
+  height: 100%;
+}
+body{
+    background-color:white;
+    margin: 0;
+    height: 100%;
+    font-family: 'Golos Text', sans-serif;
+    max-height: 1080px;
+    max-width: 1920px;
+}
+header{
+    background-color: rgb(167, 184, 233);
+    height: 80px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+h1{
+    color: rgb(55, 55, 182);
+    margin-top: 25px;
+}
+.logo{
+  width: auto;
+  height: 80px;
+}
+img{
+    width: auto;
+    height: 100px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border-color: beige;
+    background-color:rgb(55, 55, 182);
+    color:white;
+    cursor:pointer;
+}
+.burger{
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+.container{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  width: 1400px;
+  height: 600px;
+}
+.img1{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.item{
+  margin:0 auto;
+  height: 200px;
+  width: 200px;
+  transition: 0.5s;
+}
+.item:hover{
+  transform:scale(1.2);
+}
+h4{
+  text-align: center;
+  color: rgb(55, 55, 182);
+}
+footer{
+  height: 50px;
+  background-color: rgb(167, 184, 233);
+  text-align:center;
+}
+h5{
+  padding-top:17px;
+  color:rgb(55, 55, 182);
+}
+.wrapper{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.content{
+  display: table-row;
+  height: 100%;
+}
+figcaption{
+  text-align: center;
+  color: black;
+}
+form{
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 450px;
+  text-align: center;
+  color: rgb(55, 55, 182); 
+}
+input{
+  padding-left: 15px;
+}
+.input_file_button{
+  width: 250px;
+  height: 23px;
+}
+.input_button{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(55, 55, 182);
+  border-color: beige;
+  color: white;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  color: rgb(55, 55, 182);
+}
+.name{
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+  height: 50px;
+  background-color: rgb(236, 236, 236);
+  border:2px solid gray;
+  color: rgb(55, 55, 182);
+  font-size: 18px;
+  outline: none;
+}
+.name::placeholder{
+  color: rgb(55, 55, 182);
+}
+.email{
+  height: 50px;
+  width: 188px;
+  margin-top: 10px;
+  background-color: rgb(236, 236, 236);
+  color: rgb(55, 55, 182);
+  border:2px solid dimgrey;
+  font-size: 18px;
+  outline: none;
+}
+.email::placeholder{
+  color: rgb(55, 55, 182);
+}
+.number{
+  height: 50px;
+  width: 188px;
+  margin-top: 10px;
+  margin-left: 2px;
+  background-color: rgb(236, 236, 236);
+  border:2px solid dimgrey;
+  color: rgb(55, 55, 182);
+  font-size: 18px;
+  outline: none;
+}
+.number::placeholder{
+  color: rgb(55, 55, 182);
+}
+textarea{
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  outline: none;
+  background-color: rgb(236, 236, 236);
+  border:2px solid dimgrey;
+  color: rgb(55, 55, 182);
+  font-size: 18px;
+  font-family: 'Golos Text', sans-serif;
+  padding-left: 15px;
+}
+.messages::placeholder{
+  color: rgb(55, 55, 182);
+}
+.container_form{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.sex{
+  width: 250px;
+}
+.files{
+  margin-top: 30px;
+  width: 250px;
+}

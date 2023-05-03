@@ -1,0 +1,66 @@
+<!-- Скелет сайта -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Кодировка сайта -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключение каскадной таблицы стиля (CSS) -->
+    <link href="../Assects/Style/DaZdrav2.css" rel="stylesheet" type="text/css">
+    <link href="../Assects/Group 2.png" rel="shortcut icon" type="image/png">
+    <!-- Подключение стиля шрифта -->
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <title>Интернет-аптека DaZdrav в Москве</title>
+</head>
+<body>
+    <!-- Навигация по сайту -->
+    <div class= "wrapper">
+        <header>
+            <nav class = "header">
+            <img class = "logo" src="../Assects/Group 4.png">
+                <h3>
+                    <button onclick="window.location.href = 'DaZdrav3.html';">
+                        О нас
+                    </button>
+                </h3>
+                <h1>
+                    Отзывы
+                </h1>
+                <h3><button onclick="window.location.href = 'DaZdrav1.html';">
+                    Продукты
+                </button>
+                </h3>
+                <a href = "DaZdrav1.html"><img class = 'burger' src="../Assects/Frame 8.png"></a>
+            </nav>
+        </header>
+        <!-- Основная информация на сайте -->
+        <div class="content">
+            <h2>ФОРМА ДЛЯ ОТПРАВКИ ОТЗЫВОВ</h2>
+            <form action="../src/sending.php" method="post" name="form">
+                <input name='name' class="name" type="text" placeholder="Имя">
+                <input name='email' class='email' type="text" placeholder="Email"><input name = 'number' class = 'number' type="text" placeholder="Номер">
+                <input name='header' class="name" type="text" placeholder="Тема">
+                <textarea name='message' class='messages' type="text" placeholder="Сообщение"></textarea>
+                <br>
+                <div class="container_form">
+                    <div class="sex">
+                        <p>Ваш пол:</p>
+                        <input type="radio" id="man" name="people">Мужской
+                        <input type="radio" id='woman' name="people">Женский
+                    </div>
+                    <div class="files">
+                        <input type="file" name='file' class="input_file_button">
+                    </div>
+                </div>
+                <input type="submit" value="Отправить" class="input_button">
+            </form>
+        </div>
+        <!-- "подвал" сайта -->
+        <footer>
+            <h5>All rights reserved DaZdrav© 2023</h5>
+        </footer>
+    </div>
+</body>
+</html>
